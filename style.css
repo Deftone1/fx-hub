@@ -27,8 +27,20 @@ body {
 
 .alien-header {
     text-align: center;
-    background-color: black;
-    line-height: 1;
+    
+}
+
+.alien-main-image {
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.4;
+    border: black solid 4px;
+    border-radius: 400px;
+}
+
+.alien-main {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .alien-text {
@@ -38,6 +50,17 @@ body {
     font-family: courier;
     text-align: center;
     margin-top: 15px;
+}
+
+/* JAWS CSS BELOW */
+.col-two {
+    padding: 2px;
+    text-align: center;
+}
+
+.anim-container {
+    margin: 20px;
+    text-align: center;
 }
 
 .jaws-header {
@@ -51,17 +74,6 @@ body {
     margin: 0 auto;
     padding: 3px;
     margin: 5px;
-}
-
-/* JAWS CSS BELOW */
-.col-two {
-    padding: 2px;
-    text-align: center;
-}
-
-.anim-container {
-    margin: 20px;
-    text-align: center;
 }
 
 .jaws-boat-img {
