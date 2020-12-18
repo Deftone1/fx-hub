@@ -14,21 +14,19 @@ body {
     width: 80%;
 }
 
-
 /* ALIEN CSS BELOW */
+
 .background-image {
     max-width: 50%;
 }
 
 .container {
-    background-color: rgb(9, 10, 32);
+    background-color: rgba(255, 255, 255, 0.055);
     margin: 0 auto;
-    
 }
 
 .alien-header {
     text-align: center;
-    
 }
 
 .alien-main-image {
@@ -52,13 +50,17 @@ body {
     text-align: center;
     margin-top: 15px;
 }
-
+.col-one-alien {
+    padding: 6px;
+}
 .col-two-alien {
-    padding: 12px 6px 6px 6px;;
+    padding: 12px 6px 6px 6px;
+    ;
     text-align: center;
 }
 
 /* JAWS CSS BELOW */
+
 .col-two {
     padding: 2px;
     text-align: center;
@@ -82,6 +84,13 @@ body {
     margin: 5px;
 }
 
+.shark-facts {
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 10px;
+    background-color: rgba(245, 245, 245, 0.411);
+    margin-top: 10px;
+}
+
 .jaws-boat-img {
     padding-left: 20px;
     margin-bottom: 5px;
@@ -89,11 +98,11 @@ body {
 }
 
 .jaws-text {
-    background-color: rgba(136, 211, 230, 0.2);
-    color: black;
-    padding: 5px 0px 0px 0px;
+    background-color: rgba(136, 211, 230, 0.753);
+    color: rgb(255, 255, 255);
+    padding: 5px; 
     font-family: 'Spartan', sans-serif;
-    margin: 4px 0px 0px 4px;
+    margin: 4px 3px 0px 4px;
     font-size: 16px;
     text-align: center;
 }
@@ -116,11 +125,12 @@ body {
 .container-jaws {
     margin: 0 auto;
     width: 70%;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.13);
     color: black;
     padding-top: 2px;
     border-radius: 4px;
-    ;
+    padding: 4px;
+    
 }
 
 .col-two-jaws {
