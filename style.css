@@ -68,7 +68,7 @@ body {
 
 .anim-container {
     margin: 20px;
-    text-align: center;
+    
 }
 
 .jaws-header {
@@ -85,10 +85,12 @@ body {
 }
 
 .shark-facts {
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'courier', sans-serif;
     padding: 10px;
-    background-color: rgba(245, 245, 245, 0.411);
+    background-color: rgba(245, 245, 245, 0.541);
     margin-top: 10px;
+    line-height: 1;
+    border-radius: 6px;
 }
 
 .jaws-boat-img {
@@ -98,13 +100,15 @@ body {
 }
 
 .jaws-text {
-    background-color: rgba(136, 211, 230, 0.753);
+    background-color: rgba(43, 109, 153, 0.63);
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px #0000009c;
     padding: 5px; 
     font-family: 'Spartan', sans-serif;
     margin: 4px 3px 0px 4px;
     font-size: 16px;
     text-align: center;
+    border-radius: 4px;
 }
 
 .jaws-main-image {
@@ -125,10 +129,10 @@ body {
 .container-jaws {
     margin: 0 auto;
     width: 70%;
-    background-color: rgba(245, 245, 245, 0.13);
+    background-color: rgba(245, 245, 245, 0.082);
     color: black;
     padding-top: 2px;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 4px;
     
 }
@@ -158,13 +162,23 @@ body {
 }
 
 .jp-text {
-    background-color: rgba(136, 211, 230, 0.2);
+    background-color: rgb(255, 255, 255);
     color: black;
-    padding: 5px 0px 0px 0px;
+    padding: 5px;
     font-family: 'Spartan', sans-serif;
     margin: 4px 0px 5px 4px;
     font-size: 15px;
     text-align: center;
+}
+
+.container-jp {
+    margin: 0 auto;
+    width: 70%;
+    background-color: rgba(243, 243, 243, 0.24);
+    color: black;
+    padding-top: 2px;
+    border-radius: 4px;
+    padding: 4px;
 }
 
 /* RESPONSIVE CODE GOES HERE */
