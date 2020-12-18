@@ -23,6 +23,7 @@ body {
 .container {
     background-color: rgb(9, 10, 32);
     margin: 0 auto;
+    
 }
 
 .alien-header {
@@ -35,7 +36,7 @@ body {
     margin: 0 auto;
     opacity: 0.4;
     border: black solid 4px;
-    border-radius: 400px;
+    border-radius: 10px;
 }
 
 .alien-main {
@@ -50,6 +51,11 @@ body {
     font-family: courier;
     text-align: center;
     margin-top: 15px;
+}
+
+.col-two-alien {
+    padding: 12px 6px 6px 6px;;
+    text-align: center;
 }
 
 /* JAWS CSS BELOW */
