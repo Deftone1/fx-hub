@@ -18,6 +18,7 @@ body {
 
 .background-image {
     max-width: 50%;
+    
 }
 
 .container {
@@ -27,6 +28,7 @@ body {
 
 .alien-header {
     text-align: center;
+    opacity: 0.6;
 }
 
 .alien-main-image {
@@ -34,7 +36,7 @@ body {
     margin: 0 auto;
     opacity: 0.4;
     border: black solid 4px;
-    border-radius: 10px;
+    border-radius: 600px;
 }
 
 .alien-main {
@@ -84,10 +86,30 @@ body {
     margin: 5px;
 }
 
+.modal-content {
+    width: 100%;
+}
+
+.jumbotron {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.display-4 {
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+}
+
+.lead {
+    font-family: 'courier', sans-serif;
+    font-size: 16px;
+}
+
 .shark-facts {
     font-family: 'courier', sans-serif;
     padding: 10px;
-    background-color: rgba(245, 245, 245, 0.541);
+    background-color: rgba(245, 245, 245, 0.692);
     margin-top: 10px;
     line-height: 1;
     border-radius: 6px;
@@ -137,6 +159,29 @@ body {
     
 }
 
+.container-jaws-anim {
+    text-align: center;
+    margin: 0 auto;
+    border: solid rgba(255, 255, 255, 0.281) 2px;
+    margin: 60px;
+    padding: 10px;
+    
+}
+
+.shark-info {
+    background-color:rgba(255, 255, 255, 0.678);
+    color: black;
+    font-family: courier;
+    font-size: 15px;
+    padding: 4px;
+    margin: 20px;
+}
+
+.shark-image {
+    border: rgba(0, 0, 0, 0.205) solid 2px;
+    border-radius: 14px;
+}
+
 .col-two-jaws {
     margin-right: 25px;
     margin-top: 5px;
@@ -149,9 +194,11 @@ body {
     width: 800px;
     margin-top: 15px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
     margin: 0 auto;
+    border: solid black 2px;
+    border-radius: 4px;
 }
 
 /* JURASSIC PARK CSS BELOW */
