@@ -1,0 +1,15 @@
+body {
+    height: 220vh;
+}
+
+.nav-title {
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}

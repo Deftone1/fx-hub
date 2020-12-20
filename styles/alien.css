@@ -1,0 +1,68 @@
+body {
+    height: 220vh;
+}
+
+.nav-title {
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.background-image {
+    max-width: 50%;
+    
+}
+
+.alien-btn-group {
+    margin: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px;
+    margin: 5px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.055);
+    margin: 0 auto;
+}
+
+.alien-header {
+    text-align: center;
+    opacity: 0.6;
+}
+
+.alien-main-image {
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.4;
+    border: black solid 4px;
+    border-radius: 600px;
+}
+
+.alien-main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.alien-text {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-family: courier;
+    text-align: center;
+    margin-top: 15px;
+}
+.col-one-alien {
+    padding: 6px;
+}
+.col-two-alien {
+    padding: 12px 6px 6px 6px;
+    ;
+    text-align: center;
+}

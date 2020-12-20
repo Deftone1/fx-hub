@@ -1,0 +1,48 @@
+body {
+    height: 220vh;
+}
+
+.nav-title {
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.jp-header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jp-text {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    font-family: 'Spartan', sans-serif;
+    margin: 4px 0px 5px 4px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.jp-btn-group {
+    margin: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px;
+    margin: 5px;
+}
+
+.container-jp {
+    margin: 0 auto;
+    width: 70%;
+    background-color: rgba(243, 243, 243, 0.24);
+    color: black;
+    padding-top: 2px;
+    border-radius: 4px;
+    padding: 4px;
+}

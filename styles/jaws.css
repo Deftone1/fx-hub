@@ -14,55 +14,6 @@ body {
     width: 80%;
 }
 
-/* ALIEN CSS BELOW */
-
-.background-image {
-    max-width: 50%;
-    
-}
-
-.container {
-    background-color: rgba(255, 255, 255, 0.055);
-    margin: 0 auto;
-}
-
-.alien-header {
-    text-align: center;
-    opacity: 0.6;
-}
-
-.alien-main-image {
-    text-align: center;
-    margin: 0 auto;
-    opacity: 0.4;
-    border: black solid 4px;
-    border-radius: 600px;
-}
-
-.alien-main {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.alien-text {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    font-family: courier;
-    text-align: center;
-    margin-top: 15px;
-}
-.col-one-alien {
-    padding: 6px;
-}
-.col-two-alien {
-    padding: 12px 6px 6px 6px;
-    ;
-    text-align: center;
-}
-
-/* JAWS CSS BELOW */
-
 .col-two {
     padding: 2px;
     text-align: center;
@@ -200,45 +151,3 @@ body {
     border: solid black 2px;
     border-radius: 4px;
 }
-
-/* JURASSIC PARK CSS BELOW */
-
-.jp-header {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.jp-text {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding: 5px;
-    font-family: 'Spartan', sans-serif;
-    margin: 4px 0px 5px 4px;
-    font-size: 15px;
-    text-align: center;
-}
-
-.container-jp {
-    margin: 0 auto;
-    width: 70%;
-    background-color: rgba(243, 243, 243, 0.24);
-    color: black;
-    padding-top: 2px;
-    border-radius: 4px;
-    padding: 4px;
-}
-
-/* RESPONSIVE CODE GOES HERE */
-
-/* // Small devices (landscape phones, 576px and up) */
-
-/* @media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
