@@ -1,5 +1,7 @@
 body {
-    height: 220vh;
+    height: 180vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nav-title {
@@ -21,7 +23,6 @@ body {
 
 .anim-container {
     margin: 20px;
-    
 }
 
 .jaws-header {
@@ -76,7 +77,7 @@ body {
     background-color: rgba(43, 109, 153, 0.63);
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px #0000009c;
-    padding: 5px; 
+    padding: 5px;
     font-family: 'Spartan', sans-serif;
     margin: 4px 3px 0px 4px;
     font-size: 16px;
@@ -107,7 +108,6 @@ body {
     padding-top: 2px;
     border-radius: 2px;
     padding: 4px;
-    
 }
 
 .container-jaws-anim {
@@ -116,11 +116,10 @@ body {
     border: solid rgba(255, 255, 255, 0.281) 2px;
     margin: 60px;
     padding: 10px;
-    
 }
 
 .shark-info {
-    background-color:rgba(255, 255, 255, 0.678);
+    background-color: rgba(255, 255, 255, 0.678);
     color: black;
     font-family: courier;
     font-size: 15px;

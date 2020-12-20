@@ -1,5 +1,7 @@
 body {
-    height: 220vh;
+    height: 180vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nav-title {
