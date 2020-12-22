@@ -25,6 +25,9 @@ body {
 
 .anim-container {
     margin: 20px;
+    border: solid rgba(255, 255, 255, 0.301) 1px;
+    padding: 15px;
+    border-radius: 12px;
 }
 
 .jaws-header {
@@ -62,11 +65,13 @@ body {
 
 .shark-facts {
     font-family: 'courier', sans-serif;
-    padding: 10px;
+    padding: 8px;
     background-color: rgba(245, 245, 245, 0.692);
-    margin-top: 10px;
+    margin-top: 8px;
     line-height: 1;
     border-radius: 6px;
+    text-align: center;
+   
 }
 
 .jaws-boat-img {
