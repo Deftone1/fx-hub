@@ -2,6 +2,8 @@ body {
     height: 180vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .nav-title {
@@ -18,7 +20,6 @@ body {
 
 .background-image {
     max-width: 50%;
-    
 }
 
 .alien-btn-group {
@@ -60,9 +61,11 @@ body {
     text-align: center;
     margin-top: 15px;
 }
+
 .col-one-alien {
     padding: 6px;
 }
+
 .col-two-alien {
     padding: 12px 6px 6px 6px;
     ;

@@ -1,5 +1,8 @@
 body {
-    height: 220vh;
+    height: 180vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-title {
@@ -12,4 +15,62 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+.sw-header {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.sw-btn-group {
+    margin: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px;
+    margin: 5px;
+}
+
+.sw-poster {
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+.sw-poster-img {
+    padding: 10px;
+    border: solid rgba(255, 255, 255, 0.164) 2px;
+}
+
+.sw-poster-prod {
+    opacity: 0.8;
+    border-radius: 25px;
+     border: rgba(255, 255, 255, 0.178) solid 2px;
+
+}
+
+.star-text {
+    background-color: rgba(0, 0, 0, 0.664);
+    color: rgb(224, 224, 224);
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 17px;
+    font-size: 19px;
+    border-radius: 12px;
+    border: rgba(255, 255, 255, 0.178) solid 2px;
+    
+}
+
+.min-text {
+    font-family: 'Spartan', sans-serif;
+    background-color: rgba(255, 255, 255, 0.911);
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 2px;
+    line-height: 1.6;
+    text-shadow: 1px 1px #00000059;
+}
+
+.col {
+    margin: 20px;
 }
