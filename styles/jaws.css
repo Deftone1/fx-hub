@@ -28,6 +28,8 @@ body {
     border: solid rgba(255, 255, 255, 0.301) 1px;
     padding: 15px;
     border-radius: 12px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .jaws-header {
@@ -86,10 +88,11 @@ body {
     text-shadow: 1px 1px #0000009c;
     padding: 5px;
     font-family: 'Spartan', sans-serif;
-    margin: 4px 3px 0px 4px;
+    margin: 24px;
     font-size: 16px;
     text-align: center;
     border-radius: 4px;
+    display: flex;
 }
 
 .jaws-main-image {
@@ -109,7 +112,7 @@ body {
 
 .container-jaws {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     background-color: rgba(245, 245, 245, 0.082);
     color: black;
     padding-top: 2px;
@@ -121,8 +124,11 @@ body {
     text-align: center;
     margin: 0 auto;
     border: solid rgba(255, 255, 255, 0.281) 2px;
-    margin: 60px;
+    margin: 20px 300px 0px 300px;
     padding: 10px;
+   
+    
+    
 }
 
 .shark-info {
