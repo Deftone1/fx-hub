@@ -31,6 +31,11 @@ body {
     margin: 4px 0px 5px 4px;
     font-size: 15px;
     text-align: center;
+    border-radius: 3px;
+}
+
+.jp-thumb-image {
+    border-radius: 4px;
 }
 
 .jp-btn-group {
@@ -44,7 +49,7 @@ body {
 .container-jp {
     margin: 0 auto;
     width: 70%;
-    background-color: rgba(243, 243, 243, 0.24);
+    background-color: rgba(243, 243, 243, 0.082);
     color: black;
     padding-top: 2px;
     border-radius: 4px;
