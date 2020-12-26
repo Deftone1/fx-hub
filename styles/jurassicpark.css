@@ -1,5 +1,5 @@
 body {
-    height: 200vh;
+    height: 140vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,17 +21,19 @@ body {
 .jp-header {
     text-align: center;
     margin: 0 auto;
+    
 }
 
 .jp-text {
     background-color: rgb(255, 255, 255);
     color: black;
-    padding: 5px;
+    padding: 8px;
     font-family: 'Spartan', sans-serif;
     margin: 4px 0px 5px 4px;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 8px;
+    
 }
 
 .jp-thumb-image {
@@ -49,9 +51,38 @@ body {
 .container-jp {
     margin: 0 auto;
     width: 70%;
-    background-color: rgba(243, 243, 243, 0.082);
+    background-color: rgba(243, 243, 243, 0.089);
     color: black;
     padding-top: 2px;
     border-radius: 4px;
     padding: 4px;
+   
 }
+
+.t-rex-main {
+   padding-left: 60px;
+    opacity: 0.3;
+    position: fixed;
+}
+
+.trex-anim {
+    border-radius: 6px;
+}
+
+.jp-anim-cont {
+    /* text-align: center;
+    margin: 0 auto; */
+    background-color: rgba(245, 245, 245, 0.815);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.jp-anim-text {
+    background-color: white;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    padding: 16px;
+    
+    
+}
+
