@@ -1,5 +1,5 @@
 body {
-    height: 180vh;
+    height: 150vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ body {
 
 .t-rex-main {
    padding-left: 60px;
-    opacity: 0.3;
+    opacity: 0.7;
     position: fixed;
 }
 
@@ -72,7 +72,7 @@ body {
 .jp-anim-cont {
     /* text-align: center;
     margin: 0 auto; */
-    background-color: rgba(245, 245, 245, 0.137);
+    background-color: rgba(255, 255, 255, 0.103);
     padding: 12px;
     border-radius: 6px;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .miniature-gallery {
-    background-color: rgba(255, 255, 255, 0.795);
+    background-color: rgba(255, 255, 255, 0.856);
     padding-left: 6px;
     border-radius: 6px;
     font-family: Spartan;
@@ -117,7 +117,9 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     margin: 0 auto;
+    text-align: center;
 }
+
 
 
 /* MINIATURE MODAL CSS BELOW */
