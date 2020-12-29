@@ -1,8 +1,8 @@
 body {
-    height: 150vh;
+    height: 180vh;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -18,108 +18,54 @@ body {
     width: 80%;
 }
 
-.jp-header {
-    text-align: center;
-    margin: 0 auto;
-    
-}
-
-.jp-text {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding: 8px;
+.fp-header {
     font-family: 'Spartan', sans-serif;
-    margin: 4px 0px 5px 4px;
-    font-size: 15px;
-    /* text-align: center; */
-    border-radius: 8px;
-    
-}
-
-.jp-thumb-image {
-    border-radius: 4px;
-}
-
-.jp-btn-group {
-    margin: 15px;
+    font-size: 35px;
     text-align: center;
-    margin: 0 auto;
-    padding: 3px;
-    margin: 5px;
+    text-shadow: 2px 2px 6px #b1aeae;
+    border: solid black 4px 30%;
 }
 
-.container-jp {
-    margin: 0 auto;
+.fp-header-text {
     width: 60%;
-    background-color: rgba(243, 243, 243, 0.089);
-    color: black;
-    padding-top: 2px;
-    border-radius: 4px;
-    padding: 4px;
-   
-}
-
-.t-rex-main {
-   padding-left: 60px;
-    opacity: 0.7;
-    position: fixed;
-}
-
-.trex-anim {
-    border-radius: 4px;
-}
-
-.jp-anim-cont {
-    /* text-align: center;
-    margin: 0 auto; */
-    background-color: rgba(255, 255, 255, 0.103);
-    padding: 12px;
-    border-radius: 6px;
-}
-
-.jp-anim-text {
-    background-color: rgba(255, 255, 255, 0.966);
-    color: black;
-    font-family: 'Spartan', sans-serif;
-    padding: 15px;
-    border-radius: 4px;
-    font-size: 15px;
-    
-    
-}
-
-.jp-thumbnails {
+    padding: 4px 6px 0px 6px;
     text-align: center;
-    padding: 2px;
-    border: rgba(255, 255, 255, 0.301) solid 2px;
-    border-radius: 7px;
-    
-}
-
-.miniature-gallery {
-    background-color: rgba(255, 255, 255, 0.856);
-    padding-left: 6px;
-    border-radius: 6px;
-    font-family: Spartan;
-    padding-top: 6px;
-}
-
-.vid-header {
-    background-color: rgba(0, 0, 0, 0.795);
-    padding-left: 6px;
-    border-radius: 12px;
-    font-family: Spartan;
-    padding-top: 6px;
-    color: white;
-}
-
-.vid-section {
-    padding-left: 100px;
-    padding-right: 100px;
     margin: 0 auto;
-    text-align: center;
+    font-family: courier;
+    font-size: 15px;
+    background-color: rgba(37, 37, 37, 0.075);
+    border-radius: 6px;
 }
 
+.fp-img-caption {
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fp-caption {
+    font-family: 'Spartan', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 4px 4px 4px;
+}
+.fp-img-cont {
+    background-color: rgba(15, 124, 214, 0.295);
+    width: 63%;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0px 2px 20px 2px;
+
+}
+
+
+.fp-img-header {
+    font-family: 'Spartan', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 8px;
+}
 
 
 /* MINIATURE MODAL CSS BELOW */
@@ -225,4 +171,3 @@ body {
         width: 100%;
     }
 }
-
