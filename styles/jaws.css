@@ -18,6 +18,18 @@ body {
     width: 80%;
 }
 
+.btn {
+    font-family: 'Athiti', sans-serif;
+    margin: 2px;
+    
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: #bb0707;
+    border-color: #bb0707;
+}
+
 .col-two {
     padding: 2px;
     text-align: center;
@@ -28,7 +40,7 @@ body {
     border: solid rgba(255, 255, 255, 0.301) 1px;
     padding: 15px;
     border-radius: 12px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 

@@ -22,6 +22,18 @@ body {
     max-width: 50%;
 }
 
+.btn {
+    font-family: 'Athiti', sans-serif;
+    margin: 2px;
+    
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: #8b8b8b;
+    border-color: #8b8b8b;
+}
+
 .alien-btn-group {
     margin: 15px;
     text-align: center;
