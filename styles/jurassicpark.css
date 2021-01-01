@@ -6,6 +6,17 @@ body {
     background-size: cover;
 }
 
+.btn {
+    font-family: 'Athiti', sans-serif;
+    
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: #8b8b8b;
+    border-color: #8b8b8b;
+}
+
 .nav-title {
     font-family: 'Bungee', cursive;
     font-size: 40px;
@@ -21,19 +32,17 @@ body {
 .jp-header {
     text-align: center;
     margin: 0 auto;
-    
 }
 
 .jp-text {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.925);
     color: black;
     padding: 8px;
     font-family: 'Spartan', sans-serif;
     margin: 4px 0px 5px 4px;
     font-size: 15px;
     /* text-align: center; */
-    border-radius: 8px;
-    
+    border-radius: 3px;
 }
 
 .jp-thumb-image {
@@ -56,11 +65,10 @@ body {
     padding-top: 2px;
     border-radius: 4px;
     padding: 4px;
-   
 }
 
 .t-rex-main {
-   padding-left: 60px;
+    padding-left: 60px;
     opacity: 0.7;
     position: fixed;
 }
@@ -84,8 +92,6 @@ body {
     padding: 15px;
     border-radius: 4px;
     font-size: 15px;
-    
-    
 }
 
 .jp-thumbnails {
@@ -93,7 +99,6 @@ body {
     padding: 2px;
     border: rgba(255, 255, 255, 0.301) solid 2px;
     border-radius: 7px;
-    
 }
 
 .miniature-gallery {
@@ -120,8 +125,6 @@ body {
     text-align: center;
 }
 
-
-
 /* MINIATURE MODAL CSS BELOW */
 
 .myImg {
@@ -129,8 +132,6 @@ body {
     cursor: pointer;
     transition: 0.3s;
     padding: 3px;
-    
-    
 }
 
 .myImg:hover {
@@ -225,4 +226,3 @@ body {
         width: 100%;
     }
 }
-
