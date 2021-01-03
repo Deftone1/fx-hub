@@ -11,6 +11,7 @@ body {
     font-size: 40px;
 }
 
+
 .center {
     display: block;
     margin-left: auto;
@@ -25,9 +26,9 @@ body {
 }
 
 .btn:hover {
-    color: rgb(0, 0, 0);
-    background-color: #bb0707;
-    border-color: #bb0707;
+    color: rgb(226, 226, 226);
+    background-color: #cc0707;
+    border-color: #cc0707;
 }
 
 .col-two {
@@ -38,7 +39,7 @@ body {
 .anim-container {
     margin: 20px;
     border: solid rgba(255, 255, 255, 0.301) 1px;
-    padding: 15px;
+    padding: 4px 10px 20px 10px;
     border-radius: 12px;
     width: 80%;
     margin: 0 auto;
@@ -79,12 +80,25 @@ body {
 
 .shark-facts {
     font-family: 'courier', sans-serif;
-    padding: 8px;
+    padding: 2px;
     background-color: rgba(245, 245, 245, 0.692);
     margin-top: 8px;
     line-height: 1;
     border-radius: 6px;
     text-align: center;
+    height: 100%;
+   
+}
+
+.shark-fact-text {
+    font-family: 'courier', sans-serif;
+    padding: 20px 2px 2px 2px;
+    background-color: rgba(245, 245, 245, 0.692);
+    margin-top: 8px;
+    line-height: 1;
+    border-radius: 6px;
+    text-align: center;
+    height: 100%;
    
 }
 
@@ -133,8 +147,8 @@ body {
 }
 
 .container-jaws-anim {
-    text-align: center;
-    margin: 0 auto;
+    /* text-align: center; */
+    /* margin: 0 auto; */
     border: solid rgba(255, 255, 255, 0.281) 2px;
     margin: 20px 300px 0px 300px;
     padding: 10px;
