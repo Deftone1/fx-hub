@@ -1,5 +1,5 @@
 body {
-    height: 150vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,7 +9,6 @@ body {
 .btn {
     font-family: 'Athiti', sans-serif;
     margin: 2px;
-    
 }
 
 .btn:hover {
@@ -36,18 +35,18 @@ body {
 }
 
 .jp-text {
-    background-color: rgba(255, 255, 255, 0.925);
-    color: black;
+    background-color: rgba(3, 3, 3, 0.795);
+    color: rgb(255, 255, 255);
     padding: 8px;
     font-family: 'Spartan', sans-serif;
     margin: 4px 0px 5px 4px;
     font-size: 15px;
-    /* text-align: center; */
     border-radius: 3px;
 }
 
 .jp-thumb-image {
     border-radius: 4px;
+   
 }
 
 .jp-btn-group {
@@ -87,25 +86,26 @@ body {
 }
 
 .jp-anim-text {
-    background-color: rgba(255, 255, 255, 0.966);
-    color: black;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: rgb(255, 255, 255);
     font-family: 'Spartan', sans-serif;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 15px;
 }
 
 .jp-thumbnails {
     text-align: center;
     padding: 2px;
-    border: rgba(255, 255, 255, 0.301) solid 2px;
-    border-radius: 7px;
+    border: rgba(255, 255, 255, 0.137) solid 2px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.822);
 }
 
 .miniature-gallery {
     background-color: rgba(255, 255, 255, 0.856);
     padding-left: 6px;
-    border-radius: 6px;
+    border-radius: 4px;
     font-family: Spartan;
     padding-top: 6px;
 }
@@ -129,10 +129,11 @@ body {
 /* MINIATURE MODAL CSS BELOW */
 
 .myImg {
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
     padding: 3px;
+    height: 160px;
 }
 
 .myImg:hover {

@@ -1,5 +1,5 @@
 body {
-    height: 190vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +21,6 @@ body {
 .btn {
     font-family: 'Athiti', sans-serif;
     margin: 2px;
-    
 }
 
 .btn:hover {
@@ -47,12 +46,14 @@ body {
 .sw-poster {
     text-align: center;
     margin: 0 auto;
-    opacity: 0.7;
+    opacity: 0.6;
+    border-radius: 12px;
 }
 
 .sw-poster-img {
     padding: 10px;
-    border: solid rgba(255, 255, 255, 0.164) 2px;
+    border: solid rgba(255, 255, 255, 0.315) 2px;
+    border-radius: 8px;
 }
 
 .sw-poster-prod {
@@ -70,6 +71,14 @@ body {
     border-radius: 12px;
     border: rgba(255, 255, 255, 0.178) solid 2px;
     display: table;
+}
+
+.star-tab-text {
+    font-family: 'Viga', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.11);
+    padding-top: 4px;
 }
 
 .miniature-gallery {
@@ -100,7 +109,6 @@ body {
     padding: 2px;
     border: rgba(255, 255, 255, 0.11) solid 2px;
     border-radius: 12px;
-    
 }
 
 .col {
@@ -114,8 +122,6 @@ body {
     cursor: pointer;
     transition: 0.3s;
     padding: 3px;
-    
-    
 }
 
 .myImg:hover {

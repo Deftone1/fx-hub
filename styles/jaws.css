@@ -1,5 +1,5 @@
 body {
-    height: 150vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -50,6 +50,19 @@ body {
     margin: 0 auto;
 }
 
+.jaws-tab-text {
+    font-family: 'Secular One', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(226, 226, 226);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4px;
+    /* letter-spacing: 0.1em; */
+    text-shadow: rgba(0, 0, 0, 0.603) 2px 3px 4px;
+    
+    
+}
+
 .jaws-btn-group {
     margin: 15px;
     text-align: center;
@@ -92,12 +105,12 @@ body {
 
 .shark-fact-text {
     font-family: 'courier', sans-serif;
-    padding: 20px 2px 2px 2px;
+    padding: 80px 40px 40px 110px;
     background-color: rgba(245, 245, 245, 0.692);
     margin-top: 8px;
     line-height: 1;
     border-radius: 6px;
-    text-align: center;
+    /* text-align: center; */
     height: 100%;
    
 }
@@ -122,7 +135,7 @@ body {
 }
 
 .jaws-main-image {
-    width: 50%;
+    width: 40%;
     opacity: 0.2;
 }
 
@@ -162,13 +175,18 @@ body {
     color: black;
     font-family: courier;
     font-size: 15px;
-    padding: 4px;
-    margin: 20px;
+    text-align: center;
+    padding: 12px 4px 4px 4px;
+    border-radius: 6px;
+    
 }
 
 .shark-image {
     border: rgba(0, 0, 0, 0.205) solid 2px;
-    border-radius: 14px;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
 }
 
 .col-two-jaws {

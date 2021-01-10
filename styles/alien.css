@@ -1,5 +1,5 @@
 body {
-    height: 180vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -29,8 +29,8 @@ body {
 
 .btn:hover {
     color: rgb(0, 0, 0);
-    background-color: #8b8b8b;
-    border-color: #8b8b8b;
+    background-color: #727272;
+    border-color: #727272;
 }
 
 .alien-btn-group {
@@ -55,8 +55,10 @@ body {
     text-align: center;
     margin: 0 auto;
     opacity: 0.4;
-    border: black solid 4px;
-    border-radius: 600px;
+    border: rgba(0, 0, 0, 0.863) solid 4px;
+    border-bottom-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    
 }
 
 .alien-main {
@@ -72,6 +74,7 @@ body {
     text-align: center;
     margin-top: 15px;
     border-radius: 6px;
+    
 }
 
 .col-one-alien {
@@ -80,8 +83,13 @@ body {
 
 .col-two-alien {
     padding: 12px 6px 6px 6px;
-    ;
+    float: right;
     text-align: center;
+}
+
+.alien-image {
+    border-radius: 4px;
+    
 }
 
 /* ANIMATRONIC CSS SECTION */
