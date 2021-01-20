@@ -1,0 +1,59 @@
+
+
+body {
+    background-image: url('../images/chroma/white-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-title {
+    font-family: 'Bungee', cursive;
+    font-size: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.chroma-header {
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 6px #000000af;
+    border: solid black 4px 30%;
+    background-color: rgba(96, 218, 44, 0.858);
+    padding-top: 4px;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    border-radius: 6px;
+}
+
+.chroma-main-photo {
+    text-align: center;
+    height: 100%;
+   
+}
+
+.chroma-header-photo {
+    border-radius: 6px;
+    width: 100%;
+}
+
+
+
+.chroma-col-1 {
+    font-family: Arial;
+    font-size: 18px;
+    font-family: 'Pontano Sans', sans-serif;
+    background-color: white;
+    padding: 1px 8px 0px 8px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 8px rgba(14, 14, 14, 0.166)
+}
