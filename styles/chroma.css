@@ -1,5 +1,3 @@
-
-
 body {
     background-image: url('../images/chroma/white-bg.jpg');
     height: 100vh;
@@ -14,6 +12,21 @@ body {
     font-size: 40px;
 }
 
+
+
+.nav-button {
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 14px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    margin: 1px;
+}
+
+.nav-button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218);
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -25,35 +38,59 @@ body {
     font-family: 'Staatliches', cursive;
     font-size: 40px;
     text-align: center;
-    text-shadow: 2px 2px 6px #000000af;
+    text-shadow: 2px 2px 8px #00000093;
     border: solid black 4px 30%;
-    background-color: rgba(96, 218, 44, 0.858);
+    background-color: rgba(90, 230, 30, 0.856);
     padding-top: 4px;
     width: 60%;
     margin: 0 auto;
     color: white;
-    border-radius: 6px;
+    border-radius: 4px;
+    
 }
+
+
 
 .chroma-main-photo {
     text-align: center;
     height: 100%;
-   
 }
 
 .chroma-header-photo {
     border-radius: 6px;
     width: 100%;
+    
 }
 
-
+.chroma-col {
+    background-color: rgba(0, 0, 0, 0.068);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+}
 
 .chroma-col-1 {
     font-family: Arial;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Pontano Sans', sans-serif;
     background-color: white;
-    padding: 1px 8px 0px 8px;
+    padding: 8px 8px 1px 8px;
     border-radius: 6px;
     box-shadow: 3px 3px 8px rgba(14, 14, 14, 0.166)
+}
+
+.thumb-pics {
+    float: left;
+    padding-right: 6px;
+}
+
+.text-card {
+    font-size: 14px;
+}
+
+.card-cont {
+    background-color: rgba(0, 0, 0, 0.178);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
 }

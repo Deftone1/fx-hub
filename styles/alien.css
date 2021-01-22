@@ -11,6 +11,19 @@ body {
     font-size: 40px;
 }
 
+.nav-button {
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-size: 14px;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    margin: 1px;
+}
+
+.nav-button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218);
+}
+
 .center {
     display: block;
     margin-left: auto;
