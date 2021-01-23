@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Spartan&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -75,7 +76,8 @@
             <form class="form-inline my-2 my-lg-0">
 
                 <button class="nav-button" type="submit">ABOUT</button>
-                <button onclick="location.href='mailto:paulmurray85@gmail.com';"class="nav-button" type="submit">CONTACT</button>
+                <button onclick="location.href='mailto:paulmurray85@gmail.com';" class="nav-button"
+                    type="submit">CONTACT</button>
             </form>
         </div>
     </nav>
@@ -90,10 +92,10 @@
     <br>
 
     <!-- BODY STARTS HERE WITH LOGO -->
-    <div class="container">
+    <div class="container cont-test">
         <div class="row">
             <div class="col chroma-col">
-                <div class="chroma-col-1">
+                <div class="chroma-col-1 shadow p-3 bg-white rounded"">
                     <p>Chroma key compositing, or chroma keying, is a visual-effects and post-production technique for
                         compositing (layering) two images or video streams together based on colour hues (chroma range).
                         The
@@ -101,7 +103,7 @@
                         video –
                         particularly the news-casting, motion picture, and video game industries</p>
                 </div><br>
-                <div class="chroma-col-1">
+                <div class=" chroma-col-1 shadow p-3 bg-white rounded">
                     <p>A colour range in the foreground footage is made transparent, allowing separately filmed
                         background
                         footage or a static image to be inserted into the scene. The chroma keying technique is commonly
@@ -113,13 +115,13 @@
             </div>
             <div class="col-8 chroma-col-2">
                 <div class="chroma-main-photo">
-                    <img src="../images/chroma/main-chroma.jpg" alt="main chroma key photo" class="chroma-header-photo"
-                        width="700" height="500"></img>
+                    <img class="shadow bg-white rounded" style="width:100%" src="../images/chroma/avenger-chroma.jpg"
+                        alt="main chroma key photo" class="chroma-header-photo" width="700" height="490"></img>
                 </div>
             </div>
         </div>
         <hr>
-        
+
         <br>
         <hr>
         <div class="row card-cont">
@@ -146,9 +148,9 @@
                             <img src="../images/chroma/sp-chroma.jpeg">
                         </div>
                         <div class="chroma-text">
-                            <h5 class="card-title">Movies BEFORE and AFTER Green Screen Effects</h5>
-                            <p class="card-text text-card">Click below for an informative and interesting look at the
-                                power of chroma key and CGI in feature films.</p>
+                            <h5 class="card-title">Movies Before & After Green Screen Effects</h5>
+                            <p class="card-text text-card">Click below for an interesting look at the
+                                power of chroma key in feature films.</p>
                         </div>
                         <br>
                         <a href="https://www.youtube.com/watch?v=H72_4i2_bjE" target="_blank"
@@ -158,19 +160,180 @@
 
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container cont-test">
+        <div class="row row-chroma">
+            <div class="col-7" style="text-align:center">
+                <img style="border-radius:8px;height:100%;" src="../images/chroma/saving-chroma.jpg" height="550"
+                    width="630">
+            </div>
+            <div class="col-sm" style="text-align:center">
+                <img class="av-photo" style="border-radius:12px;" src="../images/chroma/avatar-chroma.png" height="450"
+                    width="410">
+                <br>
+
+                <div style="text-align:center;" class="col-sm av-pr-thumb pt-4">
+                    <p>Both films, Avatar (TOP) and Saving Private Ryan (LEFT) required the usage of multiple green
+                        screens in certain sequences. Red taped markers would assist the lining of CGI elements in
+                        post-production.</p>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+
+
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <div class="add-res">
+            <h2>ADDITIONAL FILM REFERENCES:</h2>
+        </div>
+
+        <!-- BUTTON GROUP FOR MODAL -->
+        <button type="button" class="btn btn-outline-dark buttonck" data-toggle="modal"
+            data-target="#exampleModalCenter">
+            Lord of the Rings
+        </button>
+        <button type="button" class="btn btn-outline-dark buttonck" data-toggle="modal"
+            data-target="#exampleModalCenter1">
+            The Matrix
+        </button>
+        <button type="button" class="btn btn-outline-dark buttonck" data-toggle="modal"
+            data-target="#exampleModalCenter2">
+            Superman
+        </button>
+        <button type="button" class="btn btn-outline-dark buttonck" data-toggle="modal"
+            data-target="#exampleModalCenter3">
+            Alice in Wonderland
+        </button>
+
+        </div>
+        <!-- FIRST MODAL -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title" style="text-align:center" id="exampleModalLongTitle">An excellent example
+                            (Lord of the Rings) of how powerful chroma key can be in films to create otherwise
+                            impossible worlds.</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/chroma/lotr-gif.gif" class="d-block w-100"
+                            alt="lord of the rings gif displaying comparison between pre and post prodution of green screen"
+                            width="400">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SECOND MODAL -->
+        <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title" style="text-align:center" id="exampleModalLongTitle">Hundreds of cameras
+                            had to merge with the next through a
+                            method called "interpolation" to create a new intermediate frame. This way, the motion
+                            wouldn't feel jittery and the most mobile parts of the image (such as Trinity's (Carrie-Anne
+                            Moss) legs and Neo's cape) would flow smoothly. Therefore, the scenes were shot on a green
+                            screen and the backgrounds were replicated in CGI, using photos of the real location as the
+                            textures for the 3D models of the environment.
+                        </p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/chroma/matrix-chroma.jpg" class="d-block w-100"
+                            alt="matrix flying scene on green screen" width="400">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THIRD MODAL -->
+
+        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title" style="text-align:center" id="exampleModalLongTitle">To create the flying
+                            shots in Superman, the actor was suspended on wires amongst a green screen while crew laid
+                            beneath him with powerful air-blowers to create a "flying" effect with his cape.</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/chroma/superman-chroma.jpg" class="d-block w-100"
+                            alt="superman green screen" width="400">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOURTH MODAL  -->
+
+        <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title weird" style="text-align:center" id="exampleModalLongTitle">Green screen
+                            action in Tim Burton's "Alice in Wonderland"</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../images/chroma/alice-chroma.jpg" class="d-block w-100"
+                            alt="lord of the rings gif displaying comparison between pre and post prodution of green screen"
+                            width="400">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../js/ck.js"></script>
 </body>
 
 </html>

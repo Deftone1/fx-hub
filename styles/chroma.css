@@ -12,7 +12,13 @@ body {
     font-size: 40px;
 }
 
-
+.cont-test {
+    background-color: rgba(128, 128, 128, 0.119);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
 
 .nav-button {
     border: 1px solid rgba(0, 0, 0, 0);
@@ -35,31 +41,32 @@ body {
 }
 
 .chroma-header {
-    font-family: 'Staatliches', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     text-align: center;
-    text-shadow: 2px 2px 8px #00000093;
+    text-shadow: 2px 2px 6px #000000ea;
     border: solid black 4px 30%;
     background-color: rgba(90, 230, 30, 0.856);
     padding-top: 4px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     color: white;
     border-radius: 4px;
-    
 }
-
-
 
 .chroma-main-photo {
     text-align: center;
     height: 100%;
+    padding-top: 24px;
 }
 
 .chroma-header-photo {
     border-radius: 6px;
     width: 100%;
-    
+}
+
+.add-res {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .chroma-col {
@@ -74,7 +81,7 @@ body {
     font-size: 17px;
     font-family: 'Pontano Sans', sans-serif;
     background-color: white;
-    padding: 8px 8px 1px 8px;
+    padding: 6px 8px 1px 8px;
     border-radius: 6px;
     box-shadow: 3px 3px 8px rgba(14, 14, 14, 0.166)
 }
@@ -89,8 +96,65 @@ body {
 }
 
 .card-cont {
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgba(0, 0, 0, 0.749);
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 4px;
+}
+
+.footer-photos {
     border-radius: 6px;
+}
+
+.av-photo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.row-chroma {
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+.av-pr-thumb {
+    background-color: rgb(18, 18, 18);
+    width: 90%;
+    margin-top: 12px;
+    margin: 0 auto;
+    font-family: 'Pontano Sans', sans-serif;
+    color: whitesmoke;
+}
+
+.weird {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttonck {
+    padding: 4px;
+    margin: 3px;
+    
+}
+
+
+
+/* MODAL FUNCTIONALITY BELOW */
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 3px;
+}
+
+.myImg:hover {
+    opacity: 0.5;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+  
 }
