@@ -36,7 +36,7 @@ body {
 }
 
 .btn {
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Overpass', sans-serif;
     margin: 2px;
 }
 
@@ -109,7 +109,7 @@ body {
 
 .al-an-title {
     text-align: center;
-    font-family: 'Spartan', sans-serif;
+    /* font-family: 'Spartan', sans-serif; */
     color: whitesmoke;
     font-size: 24px;
     font-family: 'Audiowide', cursive;
@@ -128,4 +128,20 @@ body {
     background-color: whitesmoke;
     opacity: 0.4;
     width: 80%;
+}
+
+.queen-intro {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px 1px 5px 1px;
+    display: inline;
+    color: whitesmoke;
+    line-height: 30px;
+    width: 80%;
+    
+    
+    
 }
