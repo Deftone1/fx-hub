@@ -11,8 +11,8 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-
 }
+
 .nav-button {
     border: 1px solid rgba(0, 0, 0, 0);
     font-size: 14px;
@@ -62,11 +62,12 @@ nav {
     margin: 4px 0px 5px 4px;
     font-size: 15px;
     border-radius: 3px;
+    display: inline-flexbox;
+    flex-flow: row;
 }
 
 .jp-thumb-image {
     border-radius: 4px;
-   
 }
 
 .jp-btn-group {
@@ -95,6 +96,7 @@ nav {
 
 .trex-anim {
     border-radius: 4px;
+    
 }
 
 .jp-anim-cont {
@@ -193,7 +195,6 @@ nav {
     width: 80%;
     max-width: 700px;
     margin-top: 80px;
-    
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -250,3 +251,4 @@ nav {
         width: 100%;
     }
 }
+

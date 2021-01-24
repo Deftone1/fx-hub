@@ -123,6 +123,15 @@ nav {
     font-family: 'Audiowide', cursive;
 }
 
+.al-an-text {
+    background-color: rgba(0, 0, 0, 0.801);
+    padding: 5px 8px 5px 8px;
+    font-family: 'Asap Condensed', sans-serif;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: whitesmoke;
+}
 .alien-anim-queen-main {
     text-align: center;
 }
@@ -130,6 +139,10 @@ nav {
 .alien-queen {
     border: rgba(0, 0, 0, 0.425) solid 2px;
     border-radius: 4px;
+}
+
+.img-gbge {
+    border-radius: 6px;
 }
 
 .hr-break {
@@ -143,6 +156,7 @@ nav {
     background-color: rgb(0, 0, 0);
     text-align: center;
     margin: 0 auto;
+    margin-top: 20px;
     border-radius: 10px;
     padding: 5px 1px 5px 1px;
     display: inline;
