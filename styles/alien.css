@@ -6,6 +6,14 @@ body {
     background-size: cover;
 }
 
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+}
+
 .nav-title {
     font-family: 'Bungee', cursive;
     font-size: 40px;

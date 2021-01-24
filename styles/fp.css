@@ -8,6 +8,13 @@ body {
     
 }
 
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+}
 .nav-title {
     font-family: 'Bungee', cursive;
     font-size: 40px;
@@ -41,7 +48,7 @@ body {
     border: solid black 4px 30%;
     background-color: rgba(24, 120, 245, 0.612);
     padding-top: 8px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     color: white;
 }
@@ -136,6 +143,7 @@ body {
     display: block;
     width: 80%;
     max-width: 700px;
+    margin-top: 80px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -170,7 +178,7 @@ body {
 /* The Close Button */
 
 .close {
-    position: absolute;
+    position: relative;
     top: 15px;
     right: 35px;
     color: #f1f1f1;

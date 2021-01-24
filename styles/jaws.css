@@ -6,10 +6,22 @@ body {
     background-size: cover;
 }
 
+nav {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+}
+
 .nav-title {
     font-family: 'Bungee', cursive;
     font-size: 40px;
 }
+
+
+
+
 
 .nav-button {
     border: 1px solid rgba(0, 0, 0, 0);
@@ -24,7 +36,6 @@ body {
     background-color: rgb(218, 218, 218);
 }
 
-
 .center {
     display: block;
     margin-left: auto;
@@ -36,7 +47,6 @@ body {
     font-family: 'Overpass', sans-serif;
     margin: 2px;
     font-size: 16px;
-    
 }
 
 .btn:hover {
@@ -44,7 +54,6 @@ body {
     background-color: #cc0707;
     border-color: #cc0707;
 }
-
 
 .col-two {
     padding: 2px;
@@ -74,8 +83,6 @@ body {
     padding-top: 4px;
     /* letter-spacing: 0.1em; */
     text-shadow: rgba(0, 0, 0, 0.603) 2px 3px 4px;
-    
-    
 }
 
 .jaws-btn-group {
@@ -114,8 +121,6 @@ body {
     line-height: 1;
     border-radius: 6px;
     text-align: center;
-   
-   
 }
 
 .bg-shark-fact {
@@ -135,8 +140,6 @@ body {
     border-radius: 3px;
     text-align: center;
     padding-left: 8px;
-   
-   
 }
 
 .jaws-boat-img {
@@ -189,9 +192,6 @@ body {
     border: solid rgba(255, 255, 255, 0.281) 2px;
     margin: 20px 300px 0px 300px;
     padding: 10px;
-   
-    
-    
 }
 
 .shark-info {
@@ -202,7 +202,6 @@ body {
     text-align: center;
     padding: 12px 4px 4px 4px;
     border-radius: 6px;
-    
 }
 
 .shark-image {
