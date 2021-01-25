@@ -67,7 +67,7 @@ nav {
     border: solid rgba(255, 255, 255, 0.301) 1px;
     padding: 4px 5px 20px 5px;
     border-radius: 12px;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -194,6 +194,9 @@ nav {
     border: solid rgba(255, 255, 255, 0.281) 2px;
     margin: 20px 300px 0px 300px;
     padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .shark-info {
@@ -231,4 +234,9 @@ nav {
     margin: 0 auto;
     border: solid black 2px;
     border-radius: 4px;
+}
+
+.jaws-thumb {
+    padding-top: 15px;
+    margin-top: 30px;
 }

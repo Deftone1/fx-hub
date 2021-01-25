@@ -11,7 +11,6 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
-
 }
 
 .nav-title {
@@ -79,7 +78,6 @@ nav {
     border: rgba(0, 0, 0, 0.863) solid 4px;
     border-bottom-right-radius: 400px;
     border-bottom-left-radius: 400px;
-    
 }
 
 .alien-main {
@@ -95,7 +93,6 @@ nav {
     text-align: center;
     margin-top: 15px;
     border-radius: 6px;
-    
 }
 
 .col-one-alien {
@@ -110,7 +107,6 @@ nav {
 
 .alien-image {
     border-radius: 4px;
-    
 }
 
 /* ANIMATRONIC CSS SECTION */
@@ -132,6 +128,7 @@ nav {
     margin-bottom: 25px;
     color: whitesmoke;
 }
+
 .alien-anim-queen-main {
     text-align: center;
 }
@@ -139,6 +136,8 @@ nav {
 .alien-queen {
     border: rgba(0, 0, 0, 0.425) solid 2px;
     border-radius: 4px;
+    border-bottom-right-radius: 400px;
+    border-bottom-left-radius: 400px;
 }
 
 .img-gbge {
@@ -163,7 +162,4 @@ nav {
     color: whitesmoke;
     line-height: 30px;
     width: 80%;
-    
-    
-    
 }
