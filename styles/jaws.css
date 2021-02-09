@@ -72,6 +72,9 @@ nav {
 }
 
 .jaws-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 0 auto;
 }
@@ -179,6 +182,7 @@ nav {
 }
 
 .container-jaws {
+    display: flex;
     margin: 0 auto;
     width: 60%;
     background-color: rgba(245, 245, 245, 0.082);
@@ -240,3 +244,17 @@ nav {
     padding-top: 15px;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 960px) {
+    .container-jaws {
+        
+      position: relative;
+      width: 100%;
+      margin: 2px;
+    }
+
+    .jaws-text {
+        font-size: 12px;
+    }
+}
+
